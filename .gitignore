@@ -1,2 +1,5 @@
 node_modules
 packages/*
+npm-debug.log
+lerna-debug.log
+yarn.lock
