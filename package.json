@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "node prepare.js",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap --ignore-scripts && node bootstrapFix.js && lerna run prepublish && lerna run prepare"
   },
   "author": "narazaka",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^2.5.1"
+    "fso": "^2.5.15",
+    "lerna": "lerna/lerna#master",
+    "lnk": "^1.1.0"
   }
 }
