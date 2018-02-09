@@ -6,7 +6,6 @@
     "Narazaka/fso",
     "Narazaka/shiori_transaction.js",
     "Narazaka/shiori_converter.js",
-    "Narazaka/surfaces_txt2yaml",
     "Ikagaka/ShioriLoader",
     "Ikagaka/ukagaka-install-descript-info.js",
     "Ikagaka/shiorif",
@@ -19,6 +18,5 @@
     "Ikagaka/ukagaka-timer-event-source.js",
     "Ikagaka/Balloon.js",
     "Ikagaka/cuttlebone",
-    "Ikagaka/NamedManager.js",
-    "Ikagaka/named-kernel-manager.js"
+    "Ikagaka/NamedManager.js"
 ]
