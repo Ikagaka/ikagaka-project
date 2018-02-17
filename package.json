@@ -10,7 +10,8 @@
     "installAll": "lerna bootstrap --ignore-scripts && node bootstrapFix.js",
     "prepareAll": "lerna run prepublish && lerna run prepare",
     "depver": "node dependencyVersions.js",
-    "multi-depver": "node dependencyVersions.js --ignore-single"
+    "multi-depver": "node dependencyVersions.js --ignore-single",
+    "gen-sln": "node genSln.js"
   },
   "author": "narazaka",
   "license": "MIT",
