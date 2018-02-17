@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "node prepare.js",
-    "bootstrap": "lerna bootstrap --ignore-scripts && node bootstrapFix.js && lerna run prepublish && lerna run prepare"
+    "bootstrap": "npm run installAll && npm run prepareAll",
+    "installAll": "lerna bootstrap --ignore-scripts && node bootstrapFix.js",
+    "prepareAll": "lerna run prepublish && lerna run prepare"
   },
   "author": "narazaka",
   "license": "MIT",
