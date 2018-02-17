@@ -1,5 +1,4 @@
 const { FileSystemObject } = require("fso");
-const lnk = require("lnk");
 const repositories = require("./repositories.json");
 
 const base = new FileSystemObject(__dirname, "packages");
