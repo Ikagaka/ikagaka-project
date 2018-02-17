@@ -3,7 +3,6 @@
     "Narazaka/lazy-event-router.js",
     "Narazaka/nativeshiori",
     "Narazaka/shiolinkjs",
-    "Narazaka/fso",
     "Narazaka/shiori_transaction.js",
     "Narazaka/shiori_converter.js",
     "Ikagaka/ShioriLoader",
