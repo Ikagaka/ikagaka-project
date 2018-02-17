@@ -8,7 +8,9 @@
     "prepare": "node prepare.js",
     "bootstrap": "npm run installAll && npm run prepareAll",
     "installAll": "lerna bootstrap --ignore-scripts && node bootstrapFix.js",
-    "prepareAll": "lerna run prepublish && lerna run prepare"
+    "prepareAll": "lerna run prepublish && lerna run prepare",
+    "depver": "node dependencyVersions.js",
+    "multi-depver": "node dependencyVersions.js --ignore-single"
   },
   "author": "narazaka",
   "license": "MIT",
