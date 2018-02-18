@@ -1,10 +1,10 @@
 const { FileSystemObject } = require("fso");
 const uuid = require("uuid/v5");
-const repositories = require("./repositories.json");
-const packageJson = require("./package.json");
+const repositories = require("../repositories.json");
+const packageJson = require("../package.json");
 
 const njsprojBaseDir = "vs";
-const root = new FileSystemObject(__dirname);
+const root = new FileSystemObject(__dirname, "..");
 const njsprojBase = root.join(njsprojBaseDir);
 const namespace = "61629e7f-5271-489f-869f-adc76c45bd7b";
 

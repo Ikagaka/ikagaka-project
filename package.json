@@ -6,11 +6,11 @@
   "scripts": {
     "prepare": "git submodule update --init --recursive",
     "bootstrap": "npm run install:all && npm run prepare:all",
-    "install:all": "lerna bootstrap --ignore-scripts && node bootstrapFix.js",
+    "install:all": "lerna bootstrap --ignore-scripts && node scripts/bootstrapFix.js",
     "prepare:all": "lerna run prepublish && lerna run prepare",
-    "depver": "node dependencyVersions.js",
-    "depver:multi": "node dependencyVersions.js --ignore-single",
-    "gen:sln": "node genSln.js",
+    "depver": "node scripts/dependencyVersions.js",
+    "depver:multi": "node scripts/dependencyVersions.js --ignore-single",
+    "gen:sln": "node scripts/genSln.js",
     "pull:all": "lerna exec git pull"
   },
   "author": "narazaka",

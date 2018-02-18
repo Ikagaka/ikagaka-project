@@ -1,7 +1,7 @@
 const { FileSystemObject } = require("fso");
-const repositories = require("./repositories.json");
+const repositories = require("../repositories.json");
 
-const base = new FileSystemObject(__dirname, "packages");
+const base = new FileSystemObject(__dirname, "..", "packages");
 
 /**
  * @param {string} repo
