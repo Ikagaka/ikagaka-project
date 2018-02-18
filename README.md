@@ -40,8 +40,10 @@ npm run bootstrap
 
 依存関係を追加する際は [`lerna add`](https://github.com/lerna/lerna#add) を使って
 
-```
+```bash
 lerna add shx --dev --scope shiorijk
+# 依存パッケージ位置を直す
+npm run deps:fix
 ```
 
 などとしてください。

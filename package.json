@@ -6,8 +6,9 @@
   "scripts": {
     "prepare": "git submodule update --init --recursive",
     "bootstrap": "npm run install:all && npm run prepare:all",
-    "install:all": "lerna bootstrap --ignore-scripts && node scripts/bootstrapFix.js",
+    "install:all": "lerna bootstrap --ignore-scripts && npm run deps:fix",
     "prepare:all": "lerna run prepublish && lerna run prepare",
+    "deps:fix": "node scripts/depsFix.js",
     "depver": "node scripts/dependencyVersions.js",
     "depver:multi": "node scripts/dependencyVersions.js --ignore-single",
     "gen:sln": "node scripts/genSln.js",
