@@ -10,7 +10,8 @@
     "prepare:all": "lerna run prepublish && lerna run prepare",
     "depver": "node dependencyVersions.js",
     "depver:multi": "node dependencyVersions.js --ignore-single",
-    "gen:sln": "node genSln.js"
+    "gen:sln": "node genSln.js",
+    "pull:all": "lerna exec git pull"
   },
   "author": "narazaka",
   "license": "MIT",
