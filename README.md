@@ -16,11 +16,24 @@
 npm install
 ```
 
-次に依存関係をインストールします。（3GBくらいになる）
+次に依存関係をインストールし初期ビルドを行います。（1GBくらいになる）
 
 ```bash
 npm run bootstrap
 ```
+
+## 開発
+
+### ワークスペース
+
+よく編集するであろうプロジェクトのワークスペースを `packages-common.code-workspace` にまとめてあるのでVisual Studio Codeでひらくと便利に編集できます。
+
+### タスク
+
+- npm run prepare: パッケージ群をgit clone
+- npm run bootstrap: パッケージそれぞれの依存関係をインストールし、prepareスクリプトを走らせる
+- npm run install:all: パッケージそれぞれの依存関係をインストール
+- npm run prepare:all: パッケージそれぞれのprepareスクリプトを走らせる
 
 ## License
 

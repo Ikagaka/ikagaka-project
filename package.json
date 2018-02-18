@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "node prepare.js",
-    "bootstrap": "npm run installAll && npm run prepareAll",
-    "installAll": "lerna bootstrap --ignore-scripts && node bootstrapFix.js",
-    "prepareAll": "lerna run prepublish && lerna run prepare",
+    "bootstrap": "npm run install:all && npm run prepare:all",
+    "install:all": "lerna bootstrap --ignore-scripts && node bootstrapFix.js",
+    "prepare:all": "lerna run prepublish && lerna run prepare",
     "depver": "node dependencyVersions.js",
-    "multi-depver": "node dependencyVersions.js --ignore-single",
-    "gen-sln": "node genSln.js"
+    "depver:multi": "node dependencyVersions.js --ignore-single",
+    "gen:sln": "node genSln.js"
   },
   "author": "narazaka",
   "license": "MIT",
