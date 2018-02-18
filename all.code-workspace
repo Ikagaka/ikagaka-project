@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{ "path": "." },
+		{ "path": "packages/Balloon.js" },
+		{ "path": "packages/cuttlebone" },
+		{ "path": "packages/ghost-kernel.js" },
+		{ "path": "packages/ikagaka-desktop" },
+		{ "path": "packages/lazy-event-router.js" },
+		{ "path": "packages/NamedManager.js" },
+		{ "path": "packages/NanikaStorage" },
+		{ "path": "packages/nativeshiori" },
+		{ "path": "packages/sakurascript" },
+		{ "path": "packages/sakurascript-executer.js" },
+		{ "path": "packages/Shell.js" },
+		{ "path": "packages/shiolinkjs" },
+		{ "path": "packages/shiori_converter.js" },
+		{ "path": "packages/shiori_transaction.js" },
+		{ "path": "packages/shiorif" },
+		{ "path": "packages/ShioriLoader" },
+		{ "path": "packages/ukagaka-install-descript-info.js" },
+		{ "path": "packages/ukagaka-timer-event-source.js" }
+	],
+	"settings": {}
+}
