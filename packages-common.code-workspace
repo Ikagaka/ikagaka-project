@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{ "path": "packages/ghost-kernel.js" },
+		{ "path": "packages/ikagaka-desktop" },
+		{ "path": "packages/NanikaStorage" },
+		{ "path": "packages/sakurascript" },
+		{ "path": "packages/sakurascript-executer.js" },
+		{ "path": "packages/shiorif" },
+		{ "path": "packages/ukagaka-install-descript-info.js" }
+	],
+	"settings": {}
+}
