@@ -17,5 +17,6 @@
     "Ikagaka/ukagaka-timer-event-source.js",
     "Ikagaka/Balloon.js",
     "Ikagaka/cuttlebone",
-    "Ikagaka/NamedManager.js"
+    "Ikagaka/NamedManager.js",
+    "Ikagaka/NarLoader"
 ]
