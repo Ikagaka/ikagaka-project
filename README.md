@@ -34,6 +34,17 @@ npm run bootstrap
 - npm run bootstrap: パッケージそれぞれの依存関係をインストールし、prepareスクリプトを走らせる
 - npm run install:all: パッケージそれぞれの依存関係をインストール
 - npm run prepare:all: パッケージそれぞれのprepareスクリプトを走らせる
+- npm run pull:all: パッケージそれぞれでgit pullする
+
+### 依存関係
+
+依存関係を追加する際は [`lerna add`](https://github.com/lerna/lerna#add) を使って
+
+```
+lerna add shx --dev --scope shiorijk
+```
+
+などとしてください。
 
 ## License
 

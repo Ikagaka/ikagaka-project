@@ -1,0 +1,57 @@
+[submodule "packages/shiorijk"]
+	path = packages/shiorijk
+	url = git@github.com:Narazaka/shiorijk.git
+[submodule "packages/lazy-event-router.js"]
+	path = packages/lazy-event-router.js
+	url = git@github.com:Narazaka/lazy-event-router.js.git
+[submodule "packages/nativeshiori"]
+	path = packages/nativeshiori
+	url = git@github.com:Narazaka/nativeshiori.git
+[submodule "packages/shiolinkjs"]
+	path = packages/shiolinkjs
+	url = git@github.com:Narazaka/shiolinkjs.git
+[submodule "packages/shiori_transaction.js"]
+	path = packages/shiori_transaction.js
+	url = git@github.com:Narazaka/shiori_transaction.js.git
+[submodule "packages/shiori_converter.js"]
+	path = packages/shiori_converter.js
+	url = git@github.com:Narazaka/shiori_converter.js.git
+[submodule "packages/ShioriLoader"]
+	path = packages/ShioriLoader
+	url = git@github.com:Ikagaka/ShioriLoader.git
+[submodule "packages/ukagaka-install-descript-info.js"]
+	path = packages/ukagaka-install-descript-info.js
+	url = git@github.com:Ikagaka/ukagaka-install-descript-info.js.git
+[submodule "packages/shiorif"]
+	path = packages/shiorif
+	url = git@github.com:Ikagaka/shiorif.git
+[submodule "packages/sakurascript"]
+	path = packages/sakurascript
+	url = git@github.com:Ikagaka/sakurascript.git
+[submodule "packages/ikagaka-desktop"]
+	path = packages/ikagaka-desktop
+	url = git@github.com:Ikagaka/ikagaka-desktop.git
+[submodule "packages/Shell.js"]
+	path = packages/Shell.js
+	url = git@github.com:Ikagaka/Shell.js.git
+[submodule "packages/ghost-kernel.js"]
+	path = packages/ghost-kernel.js
+	url = git@github.com:Ikagaka/ghost-kernel.js.git
+[submodule "packages/sakurascript-executer.js"]
+	path = packages/sakurascript-executer.js
+	url = git@github.com:Ikagaka/sakurascript-executer.js.git
+[submodule "packages/NanikaStorage"]
+	path = packages/NanikaStorage
+	url = git@github.com:Ikagaka/NanikaStorage.git
+[submodule "packages/ukagaka-timer-event-source.js"]
+	path = packages/ukagaka-timer-event-source.js
+	url = git@github.com:Ikagaka/ukagaka-timer-event-source.js.git
+[submodule "packages/Balloon.js"]
+	path = packages/Balloon.js
+	url = git@github.com:Ikagaka/Balloon.js.git
+[submodule "packages/cuttlebone"]
+	path = packages/cuttlebone
+	url = git@github.com:Ikagaka/cuttlebone.git
+[submodule "packages/NamedManager.js"]
+	path = packages/NamedManager.js
+	url = git@github.com:Ikagaka/NamedManager.js.git

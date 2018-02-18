@@ -1,9 +1,9 @@
 const { FileSystemObject } = require("fso");
 const lnk = require("lnk");
-const repositories = require("./repositories.json");
+const repositories = require("../repositories.json");
 
-const base = new FileSystemObject(__dirname, "packages");
-const baseNodeModules = new FileSystemObject(__dirname, "node_modules");
+const base = new FileSystemObject(__dirname, "..", "packages");
+const baseNodeModules = new FileSystemObject(__dirname, "..", "node_modules");
 
 /**
  * @param {string} repo
@@ -66,9 +66,14 @@ async function fixAll(repos) {
         const link = baseNodeModules.join(packageName);
         const target = packages[packageName];
         if (link.existsSync()) {
-            console.log(`rm -rf ${link}`);
-            await link.rmAll();
-            await link.rmdir();
+            if (link.isSymbolicLinkSync()) {
+                console.log(`unlink ${link}`);
+                await link.unlink();
+            } else {
+                console.log(`rm -rf ${link}`);
+                await link.rmAll();
+                await link.rmdir();
+            }
         }
         console.log(`symlink from: ${target} to: ${link}`);
         await lnk(target.path, baseNodeModules.path, {rename: packageName, type: "junction"});
