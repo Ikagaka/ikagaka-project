@@ -12,6 +12,7 @@
     "depver": "node scripts/dependencyVersions.js",
     "depver:multi": "node scripts/dependencyVersions.js --ignore-single",
     "gen:sln": "node scripts/genSln.js",
+    "master:all": "lerna exec git checkout master",
     "pull:all": "lerna exec git pull"
   },
   "author": "narazaka",
