@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "git submodule update --init --recursive",
+    "prepare": "git submodule update --init --recursive --jobs 4",
     "bootstrap": "npm run install:all && npm run prepare:all",
     "install:all": "lerna bootstrap --ignore-scripts && npm run deps:fix",
     "prepare:all": "lerna run prepublish && lerna run prepare",
